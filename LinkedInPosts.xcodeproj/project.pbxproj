@@ -39,8 +39,12 @@
 		A93270492F0F2C18001E3F1F = {
 			isa = PBXGroup;
 			children = (
-				A9F82C8F2F10821F002F8FE6 /* Continue.swift */,
-				A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */,
+				A982DE702F10A96D00F58B6E /* tips_and_tricks */,
+				A982DE6F2F10A95400F58B6E /* concurrency */,
+				A982DE6E2F10A94900F58B6E /* combine */,
+				A982DE6D2F10A94100F58B6E /* uikit */,
+				A982DE6C2F10A92F00F58B6E /* swiftUI */,
+				A982DE6B2F10A92300F58B6E /* swift */,
 				A93270542F0F2C18001E3F1F /* LinkedInPosts */,
 				A93270532F0F2C18001E3F1F /* Products */,
 			);
@@ -52,6 +56,50 @@
 				A93270522F0F2C18001E3F1F /* LinkedInPosts.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A982DE6B2F10A92300F58B6E /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				A9F82C8F2F10821F002F8FE6 /* Continue.swift */,
+				A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		A982DE6C2F10A92F00F58B6E /* swiftUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = swiftUI;
+			sourceTree = "<group>";
+		};
+		A982DE6D2F10A94100F58B6E /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		A982DE6E2F10A94900F58B6E /* combine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = combine;
+			sourceTree = "<group>";
+		};
+		A982DE6F2F10A95400F58B6E /* concurrency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = concurrency;
+			sourceTree = "<group>";
+		};
+		A982DE702F10A96D00F58B6E /* tips_and_tricks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tips_and_tricks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
