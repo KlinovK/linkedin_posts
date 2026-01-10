@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E23732F11E79000D8C167 /* SearchViewModel.swift */; };
 		A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */; };
 		A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F82C8F2F10821F002F8FE6 /* Continue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A91E23732F11E79000D8C167 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		A93270522F0F2C18001E3F1F /* LinkedInPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineArrayExample.swift; sourceTree = "<group>"; };
 		A9F82C8F2F10821F002F8FE6 /* Continue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		A982DE6F2F10A95400F58B6E /* concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				A91E23732F11E79000D8C167 /* SearchViewModel.swift */,
 			);
 			path = concurrency;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */,
+				A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */,
 				A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
