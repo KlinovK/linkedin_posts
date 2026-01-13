@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E23732F11E79000D8C167 /* SearchViewModel.swift */; };
 		A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */; };
+		A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96629832F1705E000A8DBB2 /* switchin threads.swift */; };
 		A9E2098E2F1316DF00EFA04E /* AsyncSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */; };
 		A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F82C8F2F10821F002F8FE6 /* Continue.swift */; };
 /* End PBXBuildFile section */
@@ -17,6 +18,7 @@
 		A91E23732F11E79000D8C167 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		A93270522F0F2C18001E3F1F /* LinkedInPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineArrayExample.swift; sourceTree = "<group>"; };
+		A96629832F1705E000A8DBB2 /* switchin threads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "switchin threads.swift"; sourceTree = "<group>"; };
 		A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequence.swift; sourceTree = "<group>"; };
 		A9F82C8F2F10821F002F8FE6 /* Continue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 			children = (
 				A91E23732F11E79000D8C167 /* SearchViewModel.swift */,
 				A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */,
+				A96629832F1705E000A8DBB2 /* switchin threads.swift */,
 			);
 			path = concurrency;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */,
 				A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */,
+				A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */,
 				A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */,
 				A9E2098E2F1316DF00EFA04E /* AsyncSequence.swift in Sources */,
 			);
