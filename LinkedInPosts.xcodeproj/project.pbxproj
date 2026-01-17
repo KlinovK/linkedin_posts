@@ -13,6 +13,7 @@
 		A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96629832F1705E000A8DBB2 /* switchin threads.swift */; };
 		A9E2098E2F1316DF00EFA04E /* AsyncSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */; };
 		A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F82C8F2F10821F002F8FE6 /* Continue.swift */; };
+		A9FFF0DB2F1B084200A5EEF1 /* Copying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF0DA2F1B084200A5EEF1 /* Copying.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A96629832F1705E000A8DBB2 /* switchin threads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "switchin threads.swift"; sourceTree = "<group>"; };
 		A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequence.swift; sourceTree = "<group>"; };
 		A9F82C8F2F10821F002F8FE6 /* Continue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
+		A9FFF0DA2F1B084200A5EEF1 /* Copying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copying.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -71,6 +73,7 @@
 			children = (
 				A9F82C8F2F10821F002F8FE6 /* Continue.swift */,
 				A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */,
+				A9FFF0DA2F1B084200A5EEF1 /* Copying.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FFF0DB2F1B084200A5EEF1 /* Copying.swift in Sources */,
 				A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */,
 				A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */,
 				A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */,
