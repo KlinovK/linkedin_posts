@@ -10,7 +10,11 @@
 		A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E23732F11E79000D8C167 /* SearchViewModel.swift */; };
 		A9291ED92F18EB48004E0307 /* TaskCancelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9291ED82F18EB48004E0307 /* TaskCancelation.swift */; };
 		A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */; };
+		A93FD8B72F1C4F31005BEC05 /* Span.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FD8B62F1C4F31005BEC05 /* Span.swift */; };
+		A96143C12F20BE5900EA934A /* mainActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96143C02F20BE5900EA934A /* mainActor.swift */; };
 		A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96629832F1705E000A8DBB2 /* switchin threads.swift */; };
+		A99D8F272F1EF40600C03DDB /* DataRacesHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99D8F262F1EF40600C03DDB /* DataRacesHandling.swift */; };
+		A9D05C952F218F5700124AFD /* lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D05C942F218F5700124AFD /* lazy.swift */; };
 		A9E2098E2F1316DF00EFA04E /* AsyncSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */; };
 		A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F82C8F2F10821F002F8FE6 /* Continue.swift */; };
 		A9FFF0DB2F1B084200A5EEF1 /* Copying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF0DA2F1B084200A5EEF1 /* Copying.swift */; };
@@ -21,7 +25,11 @@
 		A9291ED82F18EB48004E0307 /* TaskCancelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancelation.swift; sourceTree = "<group>"; };
 		A93270522F0F2C18001E3F1F /* LinkedInPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineArrayExample.swift; sourceTree = "<group>"; };
+		A93FD8B62F1C4F31005BEC05 /* Span.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Span.swift; sourceTree = "<group>"; };
+		A96143C02F20BE5900EA934A /* mainActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainActor.swift; sourceTree = "<group>"; };
 		A96629832F1705E000A8DBB2 /* switchin threads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "switchin threads.swift"; sourceTree = "<group>"; };
+		A99D8F262F1EF40600C03DDB /* DataRacesHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRacesHandling.swift; sourceTree = "<group>"; };
+		A9D05C942F218F5700124AFD /* lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazy.swift; sourceTree = "<group>"; };
 		A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequence.swift; sourceTree = "<group>"; };
 		A9F82C8F2F10821F002F8FE6 /* Continue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
 		A9FFF0DA2F1B084200A5EEF1 /* Copying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copying.swift; sourceTree = "<group>"; };
@@ -74,6 +82,8 @@
 				A9F82C8F2F10821F002F8FE6 /* Continue.swift */,
 				A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */,
 				A9FFF0DA2F1B084200A5EEF1 /* Copying.swift */,
+				A93FD8B62F1C4F31005BEC05 /* Span.swift */,
+				A9D05C942F218F5700124AFD /* lazy.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -106,6 +116,8 @@
 				A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */,
 				A96629832F1705E000A8DBB2 /* switchin threads.swift */,
 				A9291ED82F18EB48004E0307 /* TaskCancelation.swift */,
+				A99D8F262F1EF40600C03DDB /* DataRacesHandling.swift */,
+				A96143C02F20BE5900EA934A /* mainActor.swift */,
 			);
 			path = concurrency;
 			sourceTree = "<group>";
@@ -191,9 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96143C12F20BE5900EA934A /* mainActor.swift in Sources */,
 				A9FFF0DB2F1B084200A5EEF1 /* Copying.swift in Sources */,
 				A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */,
+				A9D05C952F218F5700124AFD /* lazy.swift in Sources */,
 				A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */,
+				A99D8F272F1EF40600C03DDB /* DataRacesHandling.swift in Sources */,
+				A93FD8B72F1C4F31005BEC05 /* Span.swift in Sources */,
 				A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */,
 				A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */,
 				A9291ED92F18EB48004E0307 /* TaskCancelation.swift in Sources */,
