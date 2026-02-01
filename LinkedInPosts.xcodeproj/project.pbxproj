@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A902DE8D2F29F031004B0801 /* throws.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902DE8C2F29F031004B0801 /* throws.swift */; };
 		A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E23732F11E79000D8C167 /* SearchViewModel.swift */; };
 		A9291ED92F18EB48004E0307 /* TaskCancelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9291ED82F18EB48004E0307 /* TaskCancelation.swift */; };
 		A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93270602F0F2C26001E3F1F /* InlineArrayExample.swift */; };
 		A93D8C432F2863D10078DF29 /* asynclet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D8C422F2863D10078DF29 /* asynclet.swift */; };
 		A93FD8B72F1C4F31005BEC05 /* Span.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FD8B62F1C4F31005BEC05 /* Span.swift */; };
 		A959479F2F23080200166A97 /* TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959479E2F23080200166A97 /* TypeErasure.swift */; };
+		A95BE11F2F2D6CAF0075578C /* typednotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BE11E2F2D6CAF0075578C /* typednotifications.swift */; };
 		A96143C12F20BE5900EA934A /* mainActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96143C02F20BE5900EA934A /* mainActor.swift */; };
 		A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96629832F1705E000A8DBB2 /* switchin threads.swift */; };
+		A97055302F2EE5A10076084A /* dispathbarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970552F2F2EE5A10076084A /* dispathbarrier.swift */; };
 		A99D8F272F1EF40600C03DDB /* DataRacesHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99D8F262F1EF40600C03DDB /* DataRacesHandling.swift */; };
 		A9D05C952F218F5700124AFD /* lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D05C942F218F5700124AFD /* lazy.swift */; };
+		A9D9B1BE2F2C3A630084023E /* isolatedvsnonisolated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9B1BD2F2C3A630084023E /* isolatedvsnonisolated.swift */; };
 		A9E2098E2F1316DF00EFA04E /* AsyncSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */; };
 		A9F75EE32F26FEC900265C18 /* DynamicCellSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F75EE22F26FEC900265C18 /* DynamicCellSize.swift */; };
 		A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F82C8F2F10821F002F8FE6 /* Continue.swift */; };
@@ -24,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A902DE8C2F29F031004B0801 /* throws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = throws.swift; sourceTree = "<group>"; };
 		A91E23732F11E79000D8C167 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		A9291ED82F18EB48004E0307 /* TaskCancelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancelation.swift; sourceTree = "<group>"; };
 		A93270522F0F2C18001E3F1F /* LinkedInPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,10 +36,13 @@
 		A93D8C422F2863D10078DF29 /* asynclet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asynclet.swift; sourceTree = "<group>"; };
 		A93FD8B62F1C4F31005BEC05 /* Span.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Span.swift; sourceTree = "<group>"; };
 		A959479E2F23080200166A97 /* TypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeErasure.swift; sourceTree = "<group>"; };
+		A95BE11E2F2D6CAF0075578C /* typednotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typednotifications.swift; sourceTree = "<group>"; };
 		A96143C02F20BE5900EA934A /* mainActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainActor.swift; sourceTree = "<group>"; };
 		A96629832F1705E000A8DBB2 /* switchin threads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "switchin threads.swift"; sourceTree = "<group>"; };
+		A970552F2F2EE5A10076084A /* dispathbarrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dispathbarrier.swift; sourceTree = "<group>"; };
 		A99D8F262F1EF40600C03DDB /* DataRacesHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRacesHandling.swift; sourceTree = "<group>"; };
 		A9D05C942F218F5700124AFD /* lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazy.swift; sourceTree = "<group>"; };
+		A9D9B1BD2F2C3A630084023E /* isolatedvsnonisolated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isolatedvsnonisolated.swift; sourceTree = "<group>"; };
 		A9E2098D2F1316DF00EFA04E /* AsyncSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequence.swift; sourceTree = "<group>"; };
 		A9F75EE22F26FEC900265C18 /* DynamicCellSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCellSize.swift; sourceTree = "<group>"; };
 		A9F82C8F2F10821F002F8FE6 /* Continue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
@@ -45,6 +53,11 @@
 		A93270542F0F2C18001E3F1F /* LinkedInPosts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LinkedInPosts;
+			sourceTree = "<group>";
+		};
+		A9B902502F2ACBEF00FA159A /* Patterns */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Patterns;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -63,6 +76,7 @@
 		A93270492F0F2C18001E3F1F = {
 			isa = PBXGroup;
 			children = (
+				A9B902502F2ACBEF00FA159A /* Patterns */,
 				A982DE702F10A96D00F58B6E /* tips_and_tricks */,
 				A982DE6F2F10A95400F58B6E /* concurrency */,
 				A982DE6E2F10A94900F58B6E /* combine */,
@@ -91,6 +105,7 @@
 				A93FD8B62F1C4F31005BEC05 /* Span.swift */,
 				A9D05C942F218F5700124AFD /* lazy.swift */,
 				A959479E2F23080200166A97 /* TypeErasure.swift */,
+				A902DE8C2F29F031004B0801 /* throws.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 				A99D8F262F1EF40600C03DDB /* DataRacesHandling.swift */,
 				A96143C02F20BE5900EA934A /* mainActor.swift */,
 				A93D8C422F2863D10078DF29 /* asynclet.swift */,
+				A9D9B1BD2F2C3A630084023E /* isolatedvsnonisolated.swift */,
+				A970552F2F2EE5A10076084A /* dispathbarrier.swift */,
 			);
 			path = concurrency;
 			sourceTree = "<group>";
@@ -134,6 +151,7 @@
 		A982DE702F10A96D00F58B6E /* tips_and_tricks */ = {
 			isa = PBXGroup;
 			children = (
+				A95BE11E2F2D6CAF0075578C /* typednotifications.swift */,
 			);
 			path = tips_and_tricks;
 			sourceTree = "<group>";
@@ -155,6 +173,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A93270542F0F2C18001E3F1F /* LinkedInPosts */,
+				A9B902502F2ACBEF00FA159A /* Patterns */,
 			);
 			name = LinkedInPosts;
 			packageProductDependencies = (
@@ -215,16 +234,20 @@
 				A96143C12F20BE5900EA934A /* mainActor.swift in Sources */,
 				A9FFF0DB2F1B084200A5EEF1 /* Copying.swift in Sources */,
 				A93270612F0F2C26001E3F1F /* InlineArrayExample.swift in Sources */,
+				A95BE11F2F2D6CAF0075578C /* typednotifications.swift in Sources */,
 				A9D05C952F218F5700124AFD /* lazy.swift in Sources */,
 				A91E23742F11E79000D8C167 /* SearchViewModel.swift in Sources */,
+				A97055302F2EE5A10076084A /* dispathbarrier.swift in Sources */,
 				A99D8F272F1EF40600C03DDB /* DataRacesHandling.swift in Sources */,
 				A93FD8B72F1C4F31005BEC05 /* Span.swift in Sources */,
 				A96629842F1705E000A8DBB2 /* switchin threads.swift in Sources */,
+				A902DE8D2F29F031004B0801 /* throws.swift in Sources */,
 				A9F82C902F10821F002F8FE6 /* Continue.swift in Sources */,
 				A9291ED92F18EB48004E0307 /* TaskCancelation.swift in Sources */,
 				A93D8C432F2863D10078DF29 /* asynclet.swift in Sources */,
 				A9F75EE32F26FEC900265C18 /* DynamicCellSize.swift in Sources */,
 				A9E2098E2F1316DF00EFA04E /* AsyncSequence.swift in Sources */,
+				A9D9B1BE2F2C3A630084023E /* isolatedvsnonisolated.swift in Sources */,
 				A959479F2F23080200166A97 /* TypeErasure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

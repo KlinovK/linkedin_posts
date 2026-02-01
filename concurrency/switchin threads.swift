@@ -8,10 +8,6 @@
 import SwiftUI
 import UIKit
 
-struct User: Codable {
-    let name: String
-}
-
 class SwiftThreads {
     
     let imageView = UIImageView()
